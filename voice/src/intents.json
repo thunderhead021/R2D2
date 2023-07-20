@@ -1,0 +1,28 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hi"],
+         "responses": ["Hello", "Good to see you again", "Hi there"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you", "Have a nice day", "Bye. Come back again soon", "Bye bye"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Any time", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "introduction",
+         "patterns": ["Who are you?", "What are you?", "Can you introduce yourself?", "What it this?", "Who am i talking to"],
+         "responses": ["I'm R 2 D 2", "The name is R 2 D 2", "R 2 D 2 at your service"],
+         "context": [""]
+        },
+		{"tag": "no answer",
+         "patterns": [" "],
+         "responses": ["Ok", "Suit yourself"],
+         "context": [""]
+        }
+   ]
+}
